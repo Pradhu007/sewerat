@@ -142,11 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sewerat.cpp" />
-    <ClCompile Include="TcpClient.cpp" />
+    <None Include=".clang-format" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TcpClient.h" />
+    <ClCompile Include="src\sewerat.cpp" />
+    <ClCompile Include="src\TcpClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TcpClient.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

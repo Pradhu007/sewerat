@@ -14,14 +14,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sewerat.cpp">
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+    <None Include=".clang-format" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\sewerat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TcpClient.cpp">
+    <ClCompile Include="src\TcpClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TcpClient.h" />
+    <ClInclude Include="src\TcpClient.h" />
   </ItemGroup>
 </Project>
