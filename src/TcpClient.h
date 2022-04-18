@@ -1,8 +1,8 @@
 #ifndef TCP_CLIENT_H
 #define TCP_CLIENT_H
 
-#include "include/spdlog/sinks/stdout_color_sinks.h"
-#include "include/spdlog/spdlog.h"
+#include "../include/spdlog/sinks/stdout_color_sinks.h"
+#include "../include/spdlog/spdlog.h"
 
 #include <winsock2.h>
 #include <ws2tcpip.h>

@@ -1,8 +1,8 @@
 // TcpClient - a class for interacting with the c2 server.
 #include "TcpClient.h"
 
-#include "include/spdlog/sinks/stdout_color_sinks.h"
-#include "include/spdlog/spdlog.h"
+#include "../include/spdlog/sinks/stdout_color_sinks.h"
+#include "../include/spdlog/spdlog.h"
 #include <windows.h>
 
 TcpClient::TcpClient(std::string host, int port, bool log)

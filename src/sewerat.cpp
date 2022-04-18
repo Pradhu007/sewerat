@@ -8,7 +8,7 @@
 #define PROG_NAME "sewerat"
 #define PROG_VERSION "0.1.0"
 
-#include "./TcpClient.h"
+#include "TcpClient.h"
 #include <iostream>
 
 // Links the needed WINSOCK library.

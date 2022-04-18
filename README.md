@@ -43,22 +43,10 @@ See [attack-stages.md](./plan/attack-stages.md) for further implementation detai
 
 ## How to build
 
-To build the software at the moment, you will need:
+Add the include path (./include) to Visual Studio or you get 6000+ errors.
 
-* meson
-* ninja
-* msys2 (if on Windows)
-* mingw (to build on Linux)
-* clang
+![600+ errors](https://cdn.discordapp.com/attachments/962788789917478974/965635870554206248/unknown.png)
 
-To build and run, either run the helper scripts in [util](./util/) or this:
-
-```sh
-meson build
-ninja -C build
-```
-
-The output is in the build directory.
 
 ## License
 
