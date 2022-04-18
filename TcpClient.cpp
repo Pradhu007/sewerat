@@ -12,7 +12,7 @@ TcpClient::TcpClient(std::string host, int port, bool log)
     logger = spdlog::stdout_color_mt("TcpClient");
     logger->info("Creating socket for {}:{}", host, port);
   }
-  // Fetch the socket object from WinSock
+  // Fetch the socket object from WinSock.
   get_socket();
 
   // Check for errors.
