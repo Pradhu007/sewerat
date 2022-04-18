@@ -5,7 +5,7 @@
   - [Features](#features)
   - [Further details](#further-details)
   - [How to build](#how-to-build)
-  - [License](#licence)
+  - [License](#license)
   - [Disclaimer](#disclaimer)
   - [Authors](#authors)
 
@@ -18,21 +18,21 @@
 
 ## Features
 
-| Task                                                  | Assigned to | Done?  |
-|-------------------------------------------------------|-------------|--------|
-| Reverse Shell                                         | N/A         | :x:    |
-| Privilege Escalation                                  | N/A         | :x:    |
-| Screenshots                                           | N/A         | :x:    |
-| Process Management (listing, killing etc.)            | N/A         | :x:    |
-| Keylogger                                             | @nullndvoid | :star: |
-| RNC/RDP/Remote Desktop function                       | N/A         | :x:    |
-| System Info                                           | N/A         | :star: |
-| Browser Passwords, History                            | N/A         | :x:    |
-| Webcam Stream                                         | N/A         | :x:    |
-| Changing the wallpaper                                | N/A         | :x:    |
-| Geolocation                                           | N/A         | :x:    |
-| Pseudocode/Documentation                              | @Pradhu007  | :star: |
-| Discord Tokens (less important, soon to be encrypted) | N/A         | :x:    |
+| Language | Task                                                  | Assigned to | Done?  |
+|----------|-------------------------------------------------------|-------------|--------|
+| C++      | Reverse Shell                                         | N/A         | :x:    |
+| C++      | Privilege Escalation                                  | N/A         | :x:    |
+| C++      | Screenshots                                           | N/A         | :x:    |
+| C++      | Process Management (listing, killing etc.)            | N/A         | :x:    |
+| C++      | Keylogger                                             | @nullndvoid | :star: |
+| C++      | RNC/RDP/Remote Desktop function                       | N/A         | :x:    |
+| C++      | System Info                                           | N/A         | :star: |
+| C++      | Browser Passwords, History                            | N/A         | :x:    |
+| C++      | Webcam Stream                                         | N/A         | :x:    |
+| C++      | Changing the wallpaper                                | N/A         | :x:    |
+| C++      | Geolocation                                           | N/A         | :x:    |
+| MD       | Pseudocode/Documentation                              | @Pradhu007  | :star: |
+| C++      | Discord Tokens (less important, soon to be encrypted) | N/A         | :x:    |
 
 Key: :star: = started | :x: = not started duh | ✔️ = completed
 
