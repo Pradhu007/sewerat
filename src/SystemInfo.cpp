@@ -20,7 +20,7 @@ using namespace std;
 #endif
 
 
-void hardwareinfo(){
+void HardwareInfo(){
 
   SYSTEM_INFO hardwareinfo;
   GetSystemInfo(&hardwareinfo);
@@ -85,7 +85,7 @@ int main() {
 TargetOS();
 TargetUsername();
 TargetComputerName();
-hardwareinfo();
+HardwareInfo();
 
 
 
